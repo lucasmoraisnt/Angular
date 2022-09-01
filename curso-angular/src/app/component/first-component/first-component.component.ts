@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-component.component.css']
 })
 export class FirstComponentComponent implements OnInit {
+  
+  //Os dados que serão preenchidos nas variáveis iram vir do banco de dados
+  name = "Lucas";
+  idade: number = 18
+  trab = 'Programador'
 
   constructor() { }
 
