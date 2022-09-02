@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+/* 
+Global: Estilização global do projeto 
+-Só é possível criar border no global
+
+Scoped: arquivo gerado qnd se cria um componente, e serve para apenas aquele componente
+*/
+
+body{
+    background-color: rgb(53, 110, 112);
+}
+
+.div{
+    border: solid 2px black;
+}
+
